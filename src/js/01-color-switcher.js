@@ -16,7 +16,7 @@ function noChengesColorBody() {
 
   timerID = setInterval(() => {
     bodyForColors.style.backgroundColor = getRandomHexColor();
-    console.log(`color`);
+    // console.log(`color`);
   }, 1000);
 }
 
