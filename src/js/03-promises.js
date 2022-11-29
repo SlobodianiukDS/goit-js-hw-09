@@ -22,7 +22,7 @@ function onMakeMessage(e) {
         // console.log(`инт`);
         if (namberInterval < inputAmountEl.value) {
           namberInterval += 1;
-          createPromise(namberInterval, inputStepEl.value);
+          createPromise(namberInterval, inputStepEl.value * namberInterval);
         } else {
           resetCreatePromise();
         }
